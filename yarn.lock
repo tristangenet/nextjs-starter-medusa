@@ -7335,7 +7335,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -7428,9 +7428,9 @@ __metadata:
     postcss: "npm:^8.4.8"
     prettier: "npm:^2.8.8"
     qs: "npm:^6.12.1"
-    react: "npm:19.0.4"
+    react: "npm:18.3.1"
     react-country-flag: "npm:^3.1.0"
-    react-dom: "npm:19.0.4"
+    react-dom: "npm:18.3.1"
     server-only: "npm:^0.0.1"
     tailwindcss: "npm:^3.0.23"
     tailwindcss-radix: "npm:^2.8.0"
@@ -8463,14 +8463,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:19.0.4":
-  version: 19.0.4
-  resolution: "react-dom@npm:19.0.4"
+"react-dom@npm:18.3.1":
+  version: 18.3.1
+  resolution: "react-dom@npm:18.3.1"
   dependencies:
-    scheduler: "npm:^0.25.0"
+    loose-envify: "npm:^1.1.0"
+    scheduler: "npm:^0.23.2"
   peerDependencies:
-    react: ^19.0.4
-  checksum: 10/53a9cb5ac37f661cd99606a0d5016b36df5837a6c51f52d22a83dfc03d3a685590cdecaeb1ccebb49622c302756554765f43f77d81b1f5b8a4777c289c9d46fa
+    react: ^18.3.1
+  checksum: 10/3f4b73a3aa083091173b29812b10394dd06f4ac06aff410b74702cfb3aa29d7b0ced208aab92d5272919b612e5cda21aeb1d54191848cf6e46e9e354f3541f81
   languageName: node
   linkType: hard
 
@@ -8568,10 +8569,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:19.0.4":
-  version: 19.0.4
-  resolution: "react@npm:19.0.4"
-  checksum: 10/cff5f064a9cb70c6d9940f3b39e5e0fde40ba463ce653d11ff6c3605ef0cfdb3d7d3830b86d1f6b73b68a81ac4a306426bd45e54b7cec553bf30abc9372f0395
+"react@npm:18.3.1":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
+  dependencies:
+    loose-envify: "npm:^1.1.0"
+  checksum: 10/261137d3f3993eaa2368a83110466fc0e558bc2c7f7ae7ca52d94f03aac945f45146bd85e5f481044db1758a1dbb57879e2fcdd33924e2dde1bdc550ce73f7bf
   languageName: node
   linkType: hard
 
@@ -8785,10 +8788,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.25.0":
-  version: 0.25.0
-  resolution: "scheduler@npm:0.25.0"
-  checksum: 10/e661e38503ab29a153429a99203fefa764f28b35c079719eb5efdd2c1c1086522f6653d8ffce388209682c23891a6d1d32fa6badf53c35fb5b9cd0c55ace42de
+"scheduler@npm:^0.23.2":
+  version: 0.23.2
+  resolution: "scheduler@npm:0.23.2"
+  dependencies:
+    loose-envify: "npm:^1.1.0"
+  checksum: 10/e8d68b89d18d5b028223edf090092846868a765a591944760942b77ea1f69b17235f7e956696efbb62c8130ab90af7e0949bfb8eba7896335507317236966bc9
   languageName: node
   linkType: hard
 
